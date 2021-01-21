@@ -7,31 +7,31 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1 class="bg-blue-100 border-8 text-red-600 text-center font-extrabold text-9xl mx-2 pb-4">LBBQ</h1>
-    <div class="text-center border-2 m-2 pb-1 ">
+    <h1 class="rounded bg-blue-100 border-8 text-red-600 text-center font-extrabold text-9xl mx-2 pb-4">LBBQ</h1>
+    <div class="rounded text-center border-8 m-2 pb-1 ">
         <p class="text-blue-500 font-extrabold text-2xl uppercase">Real BBQ in the North Shore</p>
         <p class="text-xl">Smoked long and slow over charcoal and choice woods</p>
         <p class="underline"><a href="https://www.google.com/maps/place/24+E+Scranton+Ave,+Lake+Bluff,+IL+60044/@42.2798584,-87.8472839,17z/data=!3m1!4b1!4m5!3m4!1s0x880feb4601db9cd9:0xbeffb284d60b359d!8m2!3d42.2798584!4d-87.8450952">24 E. Scranton Ave, Lake  Bluff, IL 60044</p> 
     </div>
    
-    <div class="border-2 m-2 text-center">
-        <h2 class="font-extrabold text-blue-500 text-xl uppercase">Hungry? </h2>
-        <p class="underline"><a href="menu.html"> Check out our menu</a>.</p>
-        <h3 class="font-extrabold text-blue-500 font-bold text-xl uppercase">Why LBBQ? </h3>
-        <p class="underline"><a href="about.html"> Learn more about us</a>.</p>
+    <div class="md:flex">
+        <div class="rounded md:w-1/2 border-8 m-2 text-center">
+            <h2 class="font-extrabold text-blue-500 text-xl uppercase">Hungry? </h2>
+            <p class="underline"><a href="menu.html"> Check out our menu</a>.</p>
+            <h3 class="font-extrabold text-blue-500 font-bold text-xl uppercase">Why LBBQ? </h3>
+            <p class="underline"><a href="about.html"> Learn more about us</a>.</p>
+        </div>
+        <div class="rounded md:w-1/2 text-center border-8 m-2">
+            <h1 class="font-extrabold text-blue-500 text-xl uppercase">Stay up to date...join our mailing list!</h1>
+            <form action="submission.html" class="mt-2 mb-2">
+              <label for="name">What is your name?</label>
+              <input type="text" name="name" class="border border-gray-400">
+              <label for="email">What is your email?</label>
+              <input type="text" name="email" class="border border-gray-400">
+              <button class="block mx-auto text-center rounded px-4 py-2 text-white mt-4 bg-red-400">Submit form!</button>
+            </form>
+          </div>
     </div>
-
-    <div class="text-center border-8 m-2">
-        <h1 class="font-extrabold text-blue-500 text-xl uppercase">Stay up to date...join our mailing list!</h1>
-        <form action="submission.html" class="mt-2 mb-2">
-          <label for="name">What is your name?</label>
-          <input type="text" name="name" class="border border-gray-400">
-          <label for="email">What is your email?</label>
-          <input type="text" name="email" class="border border-gray-400">
-          <button class="block mx-auto text-center rounded px-4 py-2 text-white mt-4 bg-red-400">Submit form!</button>
-        </form>
-      </div>
     
-
 </body>
 </html>
